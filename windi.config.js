@@ -6,7 +6,7 @@ const formsPlugin = require('windicss/plugin/forms');
 module.exports = defineConfig({
   darkMode: 'class',
   extract: {
-    include: ['*.html'],
+    include: ['**/*.html'],
     exclude: [
       'node_modules/**/*',
       '.git/**/*',
