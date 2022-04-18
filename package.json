@@ -1,0 +1,16 @@
+{
+  "name": "epictetus-personal-branding-assistant.github.io",
+  "version": "0.0.1",
+  "repository": "git@github.com:epictetus-personal-branding-assistant/epictetus-personal-branding-assistant.github.io.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "windicss:dev": "windicss -to assets/css/stylesheet.css --config windi.config.js --dev",
+    "windicss:build": "windicss -to assets/css/stylesheet.css --config windi.config.js --compile --minify",
+    "windicss:analysis": "windicss-analysis"
+  },
+  "devDependencies": {
+    "windicss": "^3.5.1",
+    "windicss-analysis": "^0.3.5"
+  }
+}
