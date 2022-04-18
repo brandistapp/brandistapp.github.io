@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "windicss:dev": "windicss -to assets/css/stylesheet.css --config windi.config.js --dev",
-    "windicss:build": "windicss -to assets/css/stylesheet.css --config windi.config.js --compile --minify",
+    "windicss:build": "windicss -to assets/css/stylesheet.css --config windi.config.js --minify",
     "windicss:analysis": "windicss-analysis"
   },
   "devDependencies": {
