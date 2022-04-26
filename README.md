@@ -1,7 +1,5 @@
 # Brandist Landing Page
 
-...
-
 ## Requirements
 
 - Ruby
@@ -23,7 +21,7 @@ yarn install
 Start [Jekyll](https://jekyllrb.com/) server:
 
 ```shell
-bundle exec jekyll serve --incremental --livereload
+bundle exec jekyll serve --livereload
 ```
 
 Build [Jekyll](https://jekyllrb.com/) static website:
