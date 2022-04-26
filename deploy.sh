@@ -25,6 +25,6 @@ git commit -m 'Deploy.'
 # If you are deploying to "https://<USERNAME>.github.io/<REPO>".
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 
-git push -f git@github.com:epictetus-personal-branding-assistant/epictetus-personal-branding-assistant.github.io.git main:gh-pages
+git push -f git@github.com:brandistapp/brandistapp.github.io.git main:gh-pages
 
 cd -

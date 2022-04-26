@@ -1,4 +1,4 @@
-# epictetus-personal-branding-assistant.github.io
+# Brandist Landing Page
 
 ...
 

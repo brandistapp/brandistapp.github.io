@@ -1,7 +1,7 @@
 {
-  "name": "epictetus-personal-branding-assistant.github.io",
+  "name": "brandistapp.github.io",
   "version": "0.0.1",
-  "repository": "git@github.com:epictetus-personal-branding-assistant/epictetus-personal-branding-assistant.github.io.git",
+  "repository": "git@github.com:brandistapp/brandistapp.github.io.git",
   "license": "MIT",
   "private": true,
   "scripts": {
