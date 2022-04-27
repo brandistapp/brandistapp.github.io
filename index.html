@@ -9,8 +9,8 @@ layout: default
       Brandist
     </a>
     <nav class="flex flex-1 justify-end">
-      <a href="#" class="mx-2">Roadmap</a>
-      <a href="mailto:{{ site.email }}" class="mx-2">Contact</a>
+      <a href="#" class="mx-2 transition hover:text-bay-leaf">Roadmap</a>
+      <a href="mailto:{{ site.email }}" class="mx-2 transition hover:text-bay-leaf">Contact</a>
     </nav>
   </header>
 </div>
@@ -40,7 +40,7 @@ layout: default
         <form class="flex flex-col my-16 max-w-lg mx-auto">
           <div class="flex justify-center flex-wrap items-stretch m-2">
             <input type="email" class="flex-1 rounded m-2" placeholder="Email">
-            <input type="submit" class="font-bold bg-mint-green text-scarlet-gum border-mint-green transition m-2 border-2 rounded mx-4 p-2 cursor-pointer" value="Stay Tuned">
+            <input type="submit" class="font-bold bg-mint-green text-scarlet-gum transition hover:bg-bay-leaf hover:border-bay-leaf border-mint-green transition m-2 border-2 rounded mx-4 p-2 cursor-pointer" value="Stay Tuned">
           </div>
           <p class="text-xs text-center text-white text-opacity-75">We will keep you updated on our progress and would love to have your input.</p>
         </form>
@@ -84,7 +84,7 @@ layout: default
         <form class="flex flex-col max-w-lg mx-auto">
           <div class="flex justify-center items-stretch flex-wrap m-2">
             <input type="email" class="flex-1 rounded m-2" placeholder="Email">
-            <input type="submit" class="font-bold bg-mint-green text-scarlet-gum border-mint-green border-2 rounded mx-4 m-2 p-2 cursor-pointer" value="Stay Tuned">
+            <input type="submit" class="transition hover:bg-bay-leaf hover:border-bay-leaf font-bold bg-mint-green text-scarlet-gum border-mint-green border-2 rounded mx-4 m-2 p-2 cursor-pointer" value="Stay Tuned">
           </div>
         </form>
       </section>
@@ -109,8 +109,8 @@ layout: default
   <div class="flex items-center container mx-auto max-w-screen-md">
     <footer class="font-sans container mx-auto max-w-screen-lg my-4">
       <nav class="flex content-center justify-center text-mint-green my-4">
-        <a href="#" class="mx-2">Roadmap</a>
-        <a href="mailto:{{ site.email }}" class="mx-2">Contact</a>
+        <a href="#" class="mx-2 transition hover:text-bay-leaf">Roadmap</a>
+        <a href="mailto:{{ site.email }}" class="mx-2 transition hover:text-bay-leaf">Contact</a>
       </nav>
       <div class="my-2 text-center text-xs text-white text-opacity-75">
         Copyright © {{ 'now' | date: "%Y" }} {{ site.organization_name }} All right reserved

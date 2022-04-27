@@ -16,7 +16,8 @@ module.exports = defineConfig({
     extend: {
       colors: {
         'scarlet-gum': '#3f1467',
-        'mint-green': '#99FF9C'
+        'mint-green': '#99FF9C',
+        'bay-leaf': '#7bb08b'
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif']
