@@ -6,7 +6,7 @@ layout: default
 <div class="absolute w-full font-sans bg-scarlet-gum p-4 md:p-8">
   <header class="container mx-auto max-w-screen-lg flex items-center justify-between">
     <a href="#" class="text-2xl font-bold uppercase text-mint-green">
-      Brandist
+      <h1>Brandist</h1>
     </a>
     <nav class="flex flex-1 justify-end">
       <a href="#" class="mx-2 app-link">Roadmap</a>
@@ -22,12 +22,12 @@ layout: default
   <div class="bg-scarlet-gum text-white px-4">
     <div class="flex items-center min-h-screen container mx-auto max-w-screen-md">
       <section class="md:pt-16">
-        <h1 class="text-center my-16 font-bold text-4xl md:text-6xl">We'll get you sharing, every single day</h1>
+        <h2 class="text-center my-16 font-bold text-4xl md:text-6xl">We'll get you sharing, every single day</h2>
         <div class="text-center my-8 text-lg">
           <p>
             Missing
             <strong
-              class="font-bold underline"
+              class="font-bold text-mint-green"
               x-data="typing(['time', 'consistency', 'inspiration'])"
               x-init="activate"
               x-text="item">
@@ -51,28 +51,25 @@ layout: default
   <!-- features -->
   <div class="bg-white py-16 px-4">
     <div class="flex items-center container mx-auto max-w-screen-lg">
-      <section>
-        <h2 class="text-center hidden">Features</h2>
-        <div class="flex flex-wrap">
-          <div class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-            <h3 id="personal-branding" class="my-4 text-center text-2xl font-bold">Personal Branding</h3>
-            <p>With all our features, we give you the tools to help you develop your personal brand. We've studied the best creators and built their best practices into our tools. Our app offers you a structure that will help you set weekly objectives to achieve consistency and growth. This is how we make sure that everything we do is focused on your success.</p>
-          </div>
-          <div class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-            <h3 id="content-engine" class="my-4 text-center text-2xl font-bold">Content Engine</h3>
-            <p>Our platform is designed to be a content engine where everything is done at the same place. You can activate blitz mode to generate ideas if you're in a creative rut, draft and improve your posts before scheduling them, or even use templates to create engaging content every time.</p>
-            <p>We created it to make the process as smooth as possible so you don't spend hours on it</p>
-          </div>
-          <div class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-            <h3 id="ai" class="my-4 text-center text-2xl font-bold">AI</h3>
-            <p>Finding the right words to help you grow your personal brand can be tough. When it comes to your content, it's important to have an original voice while making sure that your audience gets the content they need to hear. We've designed our tool to use AI to support your creative processes by giving you inspiration, helping you write faster, and much more.</p>
-          </div>
-          <div class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-            <h3 id="scheduling-and-analytics" class="my-4 text-center text-2xl font-bold">Scheduling and Analytics</h3>
-            <p>Scheduling and analytics are crucial to the success of any content strategy. With Brandist, you can schedule your content for LinkedIn and Twitter, and see how your posts have performed. This way you can make sure you're always putting out the kind of content that gets you closer to your goals!</p>
-          </div>
-        </div>
-      </section>
+      <div class="flex flex-wrap">
+        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
+          <h3 id="personal-branding" class="my-4 text-center text-2xl font-bold">Personal Branding</h3>
+          <p>With all our features, we give you the tools to help you develop your personal brand. We've studied the best creators and built their best practices into our tools. Our app offers you a structure that will help you set weekly objectives to achieve consistency and growth. This is how we make sure that everything we do is focused on your success.</p>
+        </section>
+        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
+          <h3 id="content-engine" class="my-4 text-center text-2xl font-bold">Content Engine</h3>
+          <p>Our platform is designed to be a content engine where everything is done at the same place. You can activate blitz mode to generate ideas if you're in a creative rut, draft and improve your posts before scheduling them, or even use templates to create engaging content every time.</p>
+          <p>We created it to make the process as smooth as possible so you don't spend hours on it</p>
+        </section>
+        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
+          <h3 id="ai" class="my-4 text-center text-2xl font-bold">AI</h3>
+          <p>Finding the right words to help you grow your personal brand can be tough. When it comes to your content, it's important to have an original voice while making sure that your audience gets the content they need to hear. We've designed our tool to use AI to support your creative processes by giving you inspiration, helping you write faster, and much more.</p>
+        </section>
+        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
+          <h3 id="scheduling-and-analytics" class="my-4 text-center text-2xl font-bold">Scheduling and Analytics</h3>
+          <p>Scheduling and analytics are crucial to the success of any content strategy. With Brandist, you can schedule your content for LinkedIn and Twitter, and see how your posts have performed. This way you can make sure you're always putting out the kind of content that gets you closer to your goals!</p>
+        </section>
+      </div>
     </div>
   </div>
 
@@ -80,7 +77,7 @@ layout: default
   <div class="bg-scarlet-gum text-white py-16 px-4">
     <div class="flex items-center container mx-auto max-w-screen-md">
       <section class="my-8">
-        <h2 class="text-center my-8 text-2xl md:text-3xl font-bold">The way you pay is in feedback — the product will be free forever for the first 100 subscribers.</h2>
+        <h3 class="text-center my-8 text-2xl md:text-3xl font-bold">The way you pay is in feedback — the product will be free forever for the first 100 subscribers.</h3>
         <form class="flex flex-col max-w-lg mx-auto">
           <div class="flex justify-center items-stretch flex-wrap m-2">
             <input type="email" class="flex-1 rounded m-2" placeholder="Email">
