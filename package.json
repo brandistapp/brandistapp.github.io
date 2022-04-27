@@ -5,8 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "windicss:dev": "windicss -to assets/css/stylesheet.css --config windi.config.js --dev",
-    "windicss:build": "windicss -to assets/css/stylesheet.css --config windi.config.js --minify",
+    "windicss:dev": "windicss -to assets/css/stylesheet.css --config windi.config.js --style --dev",
+    "windicss:build": "windicss -to assets/css/stylesheet.css --config windi.config.js --style --minify",
     "windicss:analysis": "windicss-analysis"
   },
   "devDependencies": {
