@@ -23,7 +23,19 @@ layout: default
     <div class="flex items-center min-h-screen container mx-auto max-w-screen-md">
       <section class="md:pt-16">
         <h1 class="text-center my-16 font-bold text-4xl md:text-6xl">We'll get you sharing, every single day</h1>
-        <p class="text-center my-8 text-lg">Missing time|consistency|inspiration? We’re creating a tool supported by AI to overcome your excuses and create, maintain and grow your personal brand.</p>
+        <div class="text-center my-8 text-lg">
+          <p>
+            Missing
+            <strong
+              class="font-bold"
+              x-data="typing(['time', 'consistency', 'inspiration'])"
+              x-init="activate"
+              x-text="item">
+              time
+            </strong>?
+          </p>
+          <p>We’re creating a tool supported by AI to overcome your excuses and create, maintain and grow your personal brand.</p>
+        </div>
 
         <form class="flex flex-col my-16 max-w-lg mx-auto">
           <div class="flex justify-center flex-wrap items-stretch m-2">
