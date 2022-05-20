@@ -3,13 +3,13 @@ layout: default
 ---
 
 <!-- header -->
-<div class="absolute w-full font-sans bg-scarlet-gum p-4 md:p-8">
+<div class="absolute w-full font-sans bg-scarlet-gum p-6 md:p-8">
   <header class="container mx-auto max-w-screen-lg flex items-center justify-between">
     <a href="#" class="text-2xl font-bold uppercase text-mint-green">
       <h1>Brandist</h1>
     </a>
     <nav class="flex flex-1 justify-end">
-      <a href="#" class="mx-2 app-link">Roadmap</a>
+      <a href="#" class="mx-4 app-link">Roadmap</a>
       <a href="mailto:{{ site.email }}" class="mx-2 app-link">Contact</a>
     </nav>
   </header>
@@ -38,35 +38,35 @@ layout: default
         </div>
 
         <form class="flex flex-col my-16 max-w-lg mx-auto">
-          <div class="flex justify-center flex-wrap items-stretch m-2">
-            <input type="email" class="flex-1 rounded m-2" placeholder="Email">
-            <input type="submit" class="app-btn" value="Stay Tuned">
+          <div class="flex justify-center flex-wrap items-stretch my-4">
+            <input type="email" class="app-input-text flex-1 rounded mx-2" placeholder="Email">
+            <input type="submit" class="app-btn mx-2" value="Stay Tuned">
           </div>
-          <p class="text-xs text-center text-white text-opacity-75">We will keep you updated on our progress and would love to have your input.</p>
+          <p class="text-xs text-center text-white text-opacity-75 mx-2">We will keep you updated on our progress and would love to have your input.</p>
         </form>
       </section>
     </div>
   </div>
 
   <!-- features -->
-  <div class="bg-white py-16 px-4">
+  <div class="bg-white flex">
     <div class="flex items-center container mx-auto max-w-screen-lg">
-      <div class="flex flex-wrap">
-        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-          <h3 id="personal-branding" class="my-4 text-center text-2xl font-bold">Personal Branding</h3>
+      <div class="app-articles flex flex-wrap">
+        <section class="app-article">
+          <h3 id="personal-branding" class="mb-4 text-center text-2xl font-bold">Personal Branding</h3>
           <p>With all our features, we give you the tools to help you develop your personal brand. We've studied the best creators and built their best practices into our tools. Our app offers you a structure that will help you set weekly objectives to achieve consistency and growth. This is how we make sure that everything we do is focused on your success.</p>
         </section>
-        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-          <h3 id="content-engine" class="my-4 text-center text-2xl font-bold">Content Engine</h3>
+        <section class="app-article">
+          <h3 id="content-engine" class="mb-4 text-center text-2xl font-bold">Content Engine</h3>
           <p>Our platform is designed to be a content engine where everything is done at the same place. You can activate blitz mode to generate ideas if you're in a creative rut, draft and improve your posts before scheduling them, or even use templates to create engaging content every time.</p>
           <p>We created it to make the process as smooth as possible so you don't spend hours on it</p>
         </section>
-        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-          <h3 id="ai" class="my-4 text-center text-2xl font-bold">AI</h3>
+        <section class="app-article">
+          <h3 id="ai" class="mb-4 text-center text-2xl font-bold">AI</h3>
           <p>Finding the right words to help you grow your personal brand can be tough. When it comes to your content, it's important to have an original voice while making sure that your audience gets the content they need to hear. We've designed our tool to use AI to support your creative processes by giving you inspiration, helping you write faster, and much more.</p>
         </section>
-        <section class="w-full md:w-1/2 my-8 md:px-8 md:my-16">
-          <h3 id="scheduling-and-analytics" class="my-4 text-center text-2xl font-bold">Scheduling and Analytics</h3>
+        <section class="app-article">
+          <h3 id="scheduling-and-analytics" class="mb-4 text-center text-2xl font-bold">Scheduling and Analytics</h3>
           <p>Scheduling and analytics are crucial to the success of any content strategy. With Brandist, you can schedule your content for LinkedIn and Twitter, and see how your posts have performed. This way you can make sure you're always putting out the kind of content that gets you closer to your goals!</p>
         </section>
       </div>
@@ -74,37 +74,36 @@ layout: default
   </div>
 
   <!-- CTA -->
-  <div class="bg-scarlet-gum text-white py-16 px-4">
-    <div class="flex items-center container mx-auto max-w-screen-md">
-      <section class="my-8">
-        <h3 class="text-center my-8 text-2xl md:text-3xl font-bold">The way you pay is in feedback — the product will be free forever for the first 100 subscribers.</h3>
+  <div class="bg-scarlet-gum text-white flex">
+    <!-- <div class="flex items-center container mx-auto max-w-screen-md"> -->
+      <section class="pt-32 px-4 mb-32 mx-auto max-w-screen-md">
+        <h3 class="text-center mb-8 text-2xl md:text-3xl font-bold">The way you pay is in feedback — the product will be free forever for the first 100 subscribers.</h3>
         <form class="flex flex-col max-w-lg mx-auto">
           <div class="flex justify-center items-stretch flex-wrap m-2">
-            <input type="email" class="flex-1 rounded m-2" placeholder="Email">
-            <input type="submit" class="app-btn" value="Stay Tuned">
+            <input type="email" class="app-input-text flex-1 rounded mx-2" placeholder="Email">
+            <input type="submit" class="app-btn mx-2" value="Stay Tuned">
           </div>
         </form>
       </section>
-    </div>
+    <!-- </div> -->
   </div>
 
   <!-- About Us -->
-  <div class="bg-white py-16 px-4">
-    <div class="flex items-center container mx-auto max-w-screen-md">
-      <section class="mx-auto max-w-screen-sm">
-        <h3 id="about-us" class="text-center my-8 text-2xl font-bold">About Us</h3>
-        <p class="my-4">We wanted to create a platform where anyone can build an awesome personal brand, regardless of their previous experience.</p>
-        <p class="my-4">We were two ex-colleagues who found ourselves in the same position: one looking to share his knowledge and one looking to build his notoriety so he could get more leads. But we had the same problem: we felt like we didn’t have the skills to create a great brand for ourselves, and it made us feel overwhelmed and stuck.</p>
-        <p class="my-4">So, we created Brandist so you don’t have that feeling! By mixing best practices with technology, we believe that anyone has the power to create their own reputation and voice in the world</p>
-      </section>
-    </div>
+  <div class="bg-white flex">
+    <section class="app-section-container mx-auto max-w-screen-sm">
+      <h3 id="about-us" class="text-center mb-8 text-2xl font-bold">About Us</h3>
+      <p class="mb-4">We wanted to create a platform where anyone can build an awesome personal brand, regardless of their previous experience.</p>
+      <p class="mb-4">We were two ex-colleagues who found ourselves in the same position: one looking to share his knowledge and one looking to build his notoriety so he could get more leads. But we had the same problem: we felt like we didn’t have the skills to create a great brand for ourselves, and it made us feel overwhelmed and stuck.</p>
+      <p class="mb-4">So, we created Brandist so you don’t have that feeling! By mixing best practices with technology, we believe that anyone has the power to create their own reputation and voice in the world</p>
+    </section>
   </div>
 </main>
 
 <!-- footer -->
-<div class="bg-scarlet-gum text-white px-4">
-  <div class="flex items-center container mx-auto max-w-screen-md">
-    <footer class="font-sans container mx-auto max-w-screen-lg my-4">
+<div class="bg-scarlet-gum text-white flex">
+  <div class="pt-12 px-4 mb-12 mx-auto max-w-screen-sm">
+    <!-- <footer class="font-sans container mx-auto max-w-screen-lg my-4"> -->
+    <footer>
       <nav class="flex content-center justify-center my-4">
         <a href="#" class="mx-2 app-link">Roadmap</a>
         <a href="mailto:{{ site.email }}" class="mx-2 app-link">Contact</a>
