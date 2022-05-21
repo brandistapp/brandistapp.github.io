@@ -14,6 +14,18 @@
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
     <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
     <script src="{{ "/assets/javascript/typing.js" | relative_url }}"></script>
+    <script>
+      function getElementHeightById(id) {
+        var element = document.getElementById(id);
+        if (element) {
+          console.log(element.scrollHeight)
+          return element.scrollHeight;
+        } else {
+          console.error("Element not found by ID: " + id);
+        }
+        return 0;
+      }
+    </script>
     <style lang='windi'>
       a, button, input, textarea {
         @apply focus:outline-mint-green focus:ring-bay-leaf;

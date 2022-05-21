@@ -3,14 +3,14 @@ layout: default
 ---
 
 <!-- header -->
-<div class="absolute w-full font-sans bg-scarlet-gum p-6 md:p-8">
+<div class="absolute w-full font-sans bg-scarlet-gum p-6 md:p-8" id="app-header">
   <header class="container mx-auto max-w-screen-lg flex items-center justify-between">
     <a href="#" class="text-2xl font-bold uppercase text-mint-green">
       <h1>Brandist</h1>
     </a>
     <nav class="flex flex-1 justify-end">
-      <a href="#" class="mx-4 app-link">Roadmap</a>
-      <a href="mailto:{{ site.email }}" class="mx-2 app-link">Contact</a>
+      <a href="#" class="mx-2 md:mx-4 app-link">Roadmap</a>
+      <a href="mailto:{{ site.email }}" class="mx-2 md:mx-4 app-link">Contact</a>
     </nav>
   </header>
 </div>
@@ -21,8 +21,11 @@ layout: default
   <!-- hero -->
   <div class="bg-scarlet-gum text-white px-4">
     <div class="flex items-center min-h-screen container mx-auto max-w-screen-md">
-      <section class="md:pt-16">
-        <h2 class="text-center my-16 font-bold text-4xl md:text-6xl">We&#8217;ll get you sharing, every single day</h2>
+      <section
+        x-on:resize.window="headerHeight = getElementHeightById('app-header')"
+        x-data="{ headerHeight: getElementHeightById('app-header') }"
+        x-bind:style="{ 'padding': headerHeight + 'px 0px' }">
+        <h2 class="text-center my-16 font-bold text-3xl md:text-6xl">We&#8217;ll get you sharing, every single day</h2>
         <div class="text-center my-8 text-lg">
           <p>
             Missing
