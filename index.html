@@ -24,7 +24,7 @@ layout: default
       <section
         x-on:resize.window="headerHeight = getElementHeightById('app-header')"
         x-data="{ headerHeight: getElementHeightById('app-header') }"
-        x-bind:style="{ 'padding': headerHeight + 'px 0px' }">
+        x-bind:style="{ 'padding-top': headerHeight + 'px' }">
         <h2 class="text-center my-16 font-bold text-3xl md:text-6xl">We&#8217;ll get you sharing, every single day</h2>
         <div class="text-center my-8 text-lg">
           <p>
