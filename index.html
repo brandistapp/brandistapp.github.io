@@ -19,36 +19,39 @@ layout: default
 <main class="font-sans">
 
   <!-- hero -->
-  <div class="bg-scarlet-gum text-white px-4">
-    <div class="flex items-center min-h-screen container mx-auto max-w-screen-md">
-      <section
-        x-on:resize.window="headerHeight = getElementHeightById('app-header')"
-        x-data="{ headerHeight: getElementHeightById('app-header') }"
-        x-bind:style="{ 'padding-top': headerHeight + 'px' }">
-        <h2 class="text-center my-16 font-bold text-3xl md:text-6xl">We&#8217;ll get you sharing, every single day</h2>
-        <div class="text-center my-8 text-lg">
-          <p>
-            Missing
-            <strong
-              class="font-bold text-mint-green"
-              x-data="typing(['time', 'consistency', 'inspiration'])"
-              x-init="activate"
-              x-text="item">
-              time
-            </strong>?
-          </p>
-          <p>We&#8217;re creating a tool supported by AI to overcome your excuses and create, maintain and grow your personal brand.</p>
-        </div>
+  <div class="bg-scarlet-gum text-white px-4 flex">
+    <section
+      x-on:resize.window="headerHeight = getElementHeightById('app-header')"
+      x-data="{ headerHeight: getElementHeightById('app-header') }"
+      x-bind:style="{ 'padding-top': headerHeight + 'px' }"
+      style="padding-top: 80px"
+      class="flex flex-col justify-around items-center min-h-screen container mx-auto max-w-screen-md">
+      <h2 class="text-center my-8 md:my-16 font-bold text-3xl md:text-6xl">
+        We&#8217;ll get you sharing, every single day
+      </h2>
 
-        <form class="flex flex-col my-16 max-w-lg mx-auto">
-          <div class="flex justify-center flex-wrap items-stretch my-4">
-            <input type="email" class="app-input-text flex-1 rounded mx-2 my-1" placeholder="Email">
-            <input type="submit" class="app-btn mx-2 my-1" value="Stay Tuned">
-          </div>
-          <p class="text-xs text-center text-white text-opacity-75 mx-2">We will keep you updated on our progress and would love to have your input.</p>
-        </form>
-      </section>
-    </div>
+      <div class="text-center my-8 text-lg">
+        <p>
+          Missing
+          <strong
+            class="font-bold text-mint-green"
+            x-data="typing(['time', 'consistency', 'inspiration'])"
+            x-init="activate"
+            x-text="item">
+            time
+          </strong>?
+        </p>
+        <p>We&#8217;re creating a tool supported by AI to overcome your excuses and create, maintain and grow your personal brand.</p>
+      </div>
+
+      <form class="flex flex-col my-8 md:my-16 max-w-lg mx-auto">
+        <div class="flex justify-center flex-wrap items-stretch my-4">
+          <input type="email" class="app-input-text flex-1 rounded mx-2 my-1" placeholder="Email">
+          <input type="submit" class="app-btn mx-2 my-1" value="Stay Tuned">
+        </div>
+        <p class="text-xs text-center text-white text-opacity-75 mx-2">We will keep you updated on our progress and would love to have your input.</p>
+      </form>
+    </section>
   </div>
 
   <!-- features -->
