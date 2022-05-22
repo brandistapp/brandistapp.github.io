@@ -25,12 +25,12 @@ layout: default
       x-data="{ headerHeight: getElementHeightById('app-header') }"
       x-bind:style="{ 'padding-top': headerHeight + 'px' }"
       style="padding-top: 80px"
-      class="flex flex-col justify-around items-center min-h-screen container mx-auto max-w-screen-md">
-      <h2 class="text-center my-8 md:my-16 font-bold text-3xl md:text-6xl">
+      class="flex flex-col justify-evenly items-center min-h-screen container mx-auto max-w-screen-md">
+      <h2 class="text-center font-bold text-3xl md:text-5xl lg:text-6xl">
         We&#8217;ll get you sharing, every single day
       </h2>
 
-      <div class="text-center my-8 text-lg">
+      <div class="text-center text-lg">
         <p>
           Missing
           <strong
@@ -44,7 +44,7 @@ layout: default
         <p>We&#8217;re creating a tool supported by AI to overcome your excuses and create, maintain and grow your personal brand.</p>
       </div>
 
-      <form class="flex flex-col my-8 md:my-16 max-w-lg mx-auto">
+      <form class="flex flex-col max-w-lg mx-auto">
         <div class="flex justify-center flex-wrap items-stretch my-4">
           <input type="email" class="app-input-text flex-1 rounded mx-2 my-1" placeholder="Email">
           <input type="submit" class="app-btn mx-2 my-1" value="Stay Tuned">
