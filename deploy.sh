@@ -12,7 +12,7 @@ bundle exec jekyll build
 cd _site
 
 # If you are deploying to a custom domain.
-# echo 'www.example.com' > CNAME
+echo 'www.brandist.app' > CNAME
 
 git init
 git checkout -b main
